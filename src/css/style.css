@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #23272a;
+  margin: 0 24px 0 24px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 24px 0 24px;
+}
+
+img {
+  width: 20rem;
+}
+
+span {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #23272a;
+  font-family: "Luckiest Guy", cursive;
+  margin: 0 24px 0 24px;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 31.5rem;
+  background-image: url(../img/Header\ Background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 70px 0;
+}
+
+nav h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 24px;
+}
+
+nav p {
+  text-align: justify;
+  margin: 0 24px;
+}
+
+nav .buttomNav {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 24rem;
+  height: 8rem;
+  margin: 0 auto;
+}
+
+.buttomNav button {
+  width: 20rem;
+  height: 3rem;
+  border-radius: 28px;
+  border: none;
+  color: #23272a;
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.buttomNav button + button {
+  background-color: #23272a;
+  color: #fff;
+}
+
+/* MAIN  */
+
+main {
+  width: 100vw;
+}
+
+main #section1,
+#section2,
+#section3,
+#section4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+  gap: 27px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272a;
+  height: 8.75rem;
+  width: 100vw;
+}
+
+footer img {
+  width: 11rem;
+}
