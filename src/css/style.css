@@ -27,6 +27,7 @@ span {
   color: #23272a;
   font-family: "Luckiest Guy", cursive;
   margin: 0 24px 0 24px;
+  text-align: start;
 }
 
 body {
@@ -86,7 +87,7 @@ nav .buttomNav {
   color: #fff;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 944px) {
   nav h1 {
     font-size: 3.5rem;
     margin: 0 auto;
@@ -131,7 +132,7 @@ main #section1,
   width: 100%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 944px) {
   main #section1,
   #section2,
   #section3,
@@ -141,25 +142,24 @@ main #section1,
     align-items: center;
     gap: 1rem;
     margin: 40px auto;
-    /* width: 60rem; */
     height: 24rem;
   }
 
   #section1 img {
-    min-height: 25rem;
-    max-height: 100%;
-    max-width: 100%;
-
-    min-width: 38rem;
+    width: 38rem;
+    height: 25rem;
   }
+
   #section2 img {
     width: 38rem;
     height: 25rem;
   }
+
   #section3 img {
     width: 38rem;
     height: 25rem;
   }
+
   #section4 img {
     width: 38rem;
     height: 25rem;
@@ -167,16 +167,11 @@ main #section1,
 
   #section4 {
     flex-direction: column;
-    height: 46.5rem;
+    height: 40rem;
     text-align: center;
     gap: 1rem;
   }
-
-  #secction4 div {
-    gap: 1rem;
-  }
 }
-
 /* footer  */
 
 footer {
