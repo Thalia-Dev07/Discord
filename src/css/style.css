@@ -86,6 +86,33 @@ nav .buttomNav {
   color: #fff;
 }
 
+@media (min-width: 767px) {
+  nav h1 {
+    font-size: 3.5rem;
+    margin: 0 auto;
+  }
+
+  nav p {
+    text-align: center;
+  }
+
+  nav .buttomNav {
+    flex-direction: row;
+    width: 32rem;
+    height: 2.75rem;
+  }
+
+  .buttomNav button {
+    width: 13rem;
+    height: 2.75rem;
+  }
+
+  .buttomNav button + button {
+    width: 17.5rem;
+    height: 2.75rem;
+  }
+}
+
 /* MAIN  */
 
 main {
@@ -101,7 +128,56 @@ main #section1,
   align-items: center;
   margin: 40px 0;
   gap: 27px;
+  width: 100%;
 }
+
+@media (min-width: 767px) {
+  main #section1,
+  #section2,
+  #section3,
+  #section4 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 40px auto;
+    /* width: 60rem; */
+    height: 24rem;
+  }
+
+  #section1 img {
+    min-height: 25rem;
+    max-height: 100%;
+    max-width: 100%;
+
+    min-width: 38rem;
+  }
+  #section2 img {
+    width: 38rem;
+    height: 25rem;
+  }
+  #section3 img {
+    width: 38rem;
+    height: 25rem;
+  }
+  #section4 img {
+    width: 38rem;
+    height: 25rem;
+  }
+
+  #section4 {
+    flex-direction: column;
+    height: 46.5rem;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  #secction4 div {
+    gap: 1rem;
+  }
+}
+
+/* footer  */
 
 footer {
   display: flex;
@@ -109,7 +185,7 @@ footer {
   align-items: center;
   background-color: #23272a;
   height: 8.75rem;
-  width: 100vw;
+  width: 100%;
 }
 
 footer img {
